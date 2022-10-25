@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Bjorknes Studentbevis</title>
+        <title>Bjørknes Studentbevis</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -20,20 +20,28 @@
         <div class="logo">
             <img src="Images/logo.png" alt="logo">
         </div>
-
-        <h1>Registrering for studentbevis</h1>
-
         <div class="loginForm">
-            <form>
-                <label for="Navn:">
-                    <input type="text" id="Navn" name="Navn" placeholder="Ola Normann">
-                </label>
-                <label for="Fødselsdato">
-                    <input type="date" id="Fødselsdato" name="Fødselsdato">
-                </label>
-            </form>
-        </div>
-
+            <h1>Registrering for studentbevis</h1>
+                <form>
+                    <p>Skriv inn fullt navn:</p>
+                    <label for="Navn:">
+                        <input type="text" id="Navn" name="Navn" placeholder="Ola Normann">
+                    </label>
+                    <br>
+                    <p>Skriv inn fødselsdato:</p>
+                    <label for="Fødselsdato">
+                        <input type="date" id="Fødselsdato" name="Fødselsdato">
+                    </label>
+                    <br>
+                    <label for="Image">
+                        <input type="file" id="Image" name="Image">
+                    </label>
+                    <br>
+                    <label for="Submit">
+                        <input type="submit" id="Submit" name="Submit" value="Send inn">
+                    </label>
+                </form>
+            </div>
         <script src="" async defer></script>
     </body>
 </html>
